@@ -26,3 +26,6 @@ All design decisions that stray from the standard design are mentioned here.
 
 ## No TypeScript for Cloud Functions
 Due to the beta status of SvelteKit and associated adapter I had to make a compromise in terms of TypeScript usage. Originally, this project was intended to be purely TypeScript, but due to the bugginess of the adapter's TypeScript integration (see [relevant issue here](https://github.com/jthegedus/svelte-adapter-firebase/issues/6)) it just turned out to be simpler to switch to regular JavaScript.
+
+## ESLint function ignoring
+Because of code for SSR being auto-generated, linting is difficult to accomplish. In addition, the auto-generated JavaScript utilises rather new ECMAScript features like the `??=` opertor which cause ESLint to error if the appropriate environment variables for ECMAScript toggles are not on.
