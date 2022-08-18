@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "svelte.svelte-vscode",
+    "zainchen.json",
+    "jsayol.firebase-explorer",
+    "dbaeumer.vscode-eslint"
+  ]
+}

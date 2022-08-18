@@ -1,0 +1,8 @@
+22:48:04.137 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+22:48:04.413 [main] INFO com.firebase.server.forge.App$ - Listening at localhost:9000
+22:48:09.262 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.NamespaceActor - dynga-website-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 149ms, init: 0ms
+22:48:09.332 [NamespaceSystem-blocking-namespace-operation-dispatcher-6:dynga-website-default-rtdb$-475373350:] INFO com.firebase.core.namespace.StateManager - Namespace dynga-website-default-rtdb status Active to Active
+22:48:22.715 [Thread-0] INFO com.firebase.server.forge.App$ - Attempting graceful shutdown.
+22:48:22.722 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO com.firebase.core.namespace.Terminator$Terminator - 1 actors left to terminate: dynga-website-default-rtdb
+22:48:22.730 [NamespaceSystem-akka.actor.default-dispatcher-8] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for dynga-website-default-rtdb
+22:48:22.736 [Thread-0] INFO com.firebase.server.forge.App$ - Graceful shutdown complete.
